@@ -4,6 +4,20 @@ This repository is a fork of https://github.com/tensorflow/models, using the `as
 
 [astronet README](astronet/README.md) - contains instructions on replicating Shallue et al. (2018)
 
+
+## Setting up environment on SciServer
+
+If using the current (2018-04-23) python DEV docker container.
+
+Packages installed with pip:
+
+- `pip install tensorflow==1.5`
+- `pip install numpy --upgrade`
+- `pip install pydl`
+
+Packages installed with conda:
+- `conda install pandas bazel astropy`
+
 ## Notes on replicating the astronet code
 
 When downloading the TCE file, be sure to specifically select the following. By default, the av_training_set column is not selected. You can select it using the `select columns` button on the top left of the webpage.
