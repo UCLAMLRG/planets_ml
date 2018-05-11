@@ -92,5 +92,4 @@ def main(_):
 if __name__ == "__main__":
   tf.logging.set_verbosity(tf.logging.INFO)
   FLAGS, unparsed = parser.parse_known_args()
-  print(FLAGS)
   tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
